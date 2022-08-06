@@ -1,0 +1,14 @@
+{
+	"packageManager": "pnpm@7.9.0",
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev --no-clear",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview"
+	},
+	"devDependencies": {
+		"nuxt": "3.0.0-rc.6",
+		"tailwindcss": "^3.1.8"
+	}
+}
