@@ -45,7 +45,7 @@ export default defineNuxtConfig({
 				noFallthroughCasesInSwitch: true,
 				noImplicitOverride: true,
 				noPropertyAccessFromIndexSignature: true,
-				skipLibCheck: false
+				// skipLibCheck: false
 			}
 		}
 	}
