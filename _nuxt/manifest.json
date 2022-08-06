@@ -1,0 +1,47 @@
+{
+  "node_modules/.pnpm/nuxt@3.0.0-rc.6/node_modules/nuxt/dist/app/entry.mjs": {
+    "file": "entry-d3cae65e.mjs",
+    "src": "node_modules/.pnpm/nuxt@3.0.0-rc.6/node_modules/nuxt/dist/app/entry.mjs",
+    "isEntry": true,
+    "dynamicImports": [
+      "virtual:nuxt:/home/runner/work/gay-site-gay-site/gay-site-gay-site/source/.nuxt/error-component.mjs"
+    ],
+    "css": [
+      "entry.4ba63489.css"
+    ]
+  },
+  "virtual:nuxt:/home/runner/work/gay-site-gay-site/gay-site-gay-site/source/.nuxt/error-component.mjs": {
+    "file": "error-component-f3378c66.mjs",
+    "src": "virtual:nuxt:/home/runner/work/gay-site-gay-site/gay-site-gay-site/source/.nuxt/error-component.mjs",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/.pnpm/nuxt@3.0.0-rc.6/node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "dynamicImports": [
+      "node_modules/.pnpm/@nuxt+ui-templates@0.2.2/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+      "node_modules/.pnpm/@nuxt+ui-templates@0.2.2/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
+    ]
+  },
+  "node_modules/.pnpm/@nuxt+ui-templates@0.2.2/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
+    "file": "error-404-d6b6fa96.mjs",
+    "src": "node_modules/.pnpm/@nuxt+ui-templates@0.2.2/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/.pnpm/nuxt@3.0.0-rc.6/node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "error-404.7da92f09.css"
+    ]
+  },
+  "node_modules/.pnpm/@nuxt+ui-templates@0.2.2/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
+    "file": "error-500-9539eda1.mjs",
+    "src": "node_modules/.pnpm/@nuxt+ui-templates@0.2.2/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/.pnpm/nuxt@3.0.0-rc.6/node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "error-500.918846c7.css"
+    ]
+  }
+}
