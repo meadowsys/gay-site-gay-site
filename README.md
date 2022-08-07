@@ -1,4 +1,4 @@
-# Nuxt 3 Minimal Starter
+# GAY SITE GAY SITE
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
@@ -6,37 +6,30 @@ Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
 Make sure to install the dependencies:
 
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
+```sh
+pnpm install
 ```
 
 ## Development Server
 
-Start the development server on http://localhost:3000
+Start the development server on <http://localhost:3000>
 
-```bash
-npm run dev
+```sh
+pnpm run dev
 ```
 
 ## Production
 
 Build the application for production:
 
-```bash
-npm run build
+```sh
+pnpm run build
 ```
 
 Locally preview production build:
 
-```bash
-npm run preview
+```sh
+pnpm run preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
