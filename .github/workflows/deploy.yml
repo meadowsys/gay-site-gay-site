@@ -61,7 +61,7 @@ jobs:
         mv gh-pages/git gh-pages/.git
 
         # copy output into gh-pages branch
-        cp source/.output/public/404/index.html source/.output/public/404.html
+        mv source/.output/public/404/index.html source/.output/public/404.html
         cp -R source/.output/public/* gh-pages
         cp -R source/.output/public/.* gh-pages
 
