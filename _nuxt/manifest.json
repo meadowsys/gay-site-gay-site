@@ -1,19 +1,18 @@
 {
   "node_modules/.pnpm/nuxt@3.0.0-rc.6/node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "entry-2cc4b0aa.mjs",
+    "file": "entry-95f78ef7.mjs",
     "src": "node_modules/.pnpm/nuxt@3.0.0-rc.6/node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
       "pages/index.vue",
-      "pages/test.vue",
       "virtual:nuxt:/home/runner/work/gay-site-gay-site/gay-site-gay-site/source/.nuxt/error-component.mjs"
     ],
     "css": [
-      "entry.ee115fa1.css"
+      "entry.a1e2aa0c.css"
     ]
   },
   "virtual:nuxt:/home/runner/work/gay-site-gay-site/gay-site-gay-site/source/.nuxt/error-component.mjs": {
-    "file": "error-component-04fb6b68.mjs",
+    "file": "error-component-198f3b5d.mjs",
     "src": "virtual:nuxt:/home/runner/work/gay-site-gay-site/gay-site-gay-site/source/.nuxt/error-component.mjs",
     "isDynamicEntry": true,
     "imports": [
@@ -25,23 +24,15 @@
     ]
   },
   "pages/index.vue": {
-    "file": "index-aca38f00.mjs",
+    "file": "index-5a32932d.mjs",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/.pnpm/nuxt@3.0.0-rc.6/node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "pages/test.vue": {
-    "file": "test-70893ce7.mjs",
-    "src": "pages/test.vue",
-    "isDynamicEntry": true,
-    "imports": [
-      "node_modules/.pnpm/nuxt@3.0.0-rc.6/node_modules/nuxt/dist/app/entry.mjs"
-    ]
-  },
   "node_modules/.pnpm/@nuxt+ui-templates@0.2.2/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
-    "file": "error-404-e54ddbf0.mjs",
+    "file": "error-404-90202c5c.mjs",
     "src": "node_modules/.pnpm/@nuxt+ui-templates@0.2.2/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -52,7 +43,7 @@
     ]
   },
   "node_modules/.pnpm/@nuxt+ui-templates@0.2.2/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
-    "file": "error-500-e3d8ff13.mjs",
+    "file": "error-500-cb44a553.mjs",
     "src": "node_modules/.pnpm/@nuxt+ui-templates@0.2.2/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
