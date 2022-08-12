@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<blurred-background :image="random_image" background-colour="#ffffff33">
+		<blurred-background :image="use_random_bg_image()">
 			<flex-centre class="h-screen w-screen">
 				<div class="font-bold text-4xl text-center">
 					Hi
@@ -15,7 +15,3 @@
 		</blurred-background>
 	</div>
 </template>
-
-<script setup lang="ts">
-	const random_image = use_random_bg_image();
-</script>

@@ -1,6 +1,6 @@
 <template>
 	<div class="bg-cover bg-center" :style="{ backgroundImage: `url(${image})` }">
-		<div class="h-full text-center backdrop-blur-2xl" :style="{ backgroundColor: backgroundColour ?? `transparent` }">
+		<div class="h-full text-center backdrop-blur-2xl" :style="{ backgroundColor: backgroundColour ?? `#ffffff22` }">
 			<slot />
 		</div>
 	</div>
