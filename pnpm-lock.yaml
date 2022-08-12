@@ -4,11 +4,13 @@ specifiers:
   nuxt: 3.0.0-rc.6
   tailwindcss: ^3.1.8
   typescript: ^4.7.4
+  zod: ^3.18.0
 
 devDependencies:
   nuxt: 3.0.0-rc.6
   tailwindcss: 3.1.8
   typescript: 4.7.4
+  zod: 3.18.0
 
 packages:
 
@@ -4457,4 +4459,8 @@ packages:
       archiver-utils: 2.1.0
       compress-commons: 4.1.1
       readable-stream: 3.6.0
+    dev: true
+
+  /zod/3.18.0:
+    resolution: {integrity: sha512-gwTm8RfUCe8l9rDwN5r2A17DkAa8Ez4Yl4yXqc5VqeGaXaJahzYYXbTwvhroZi0SNBqTwh/bKm2N0mpCzuw4bA==}
     dev: true

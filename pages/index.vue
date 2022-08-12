@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<blurred-background :image="use_random_bg_image()" class="h-screen w-screen">
+		<blurred-background :image="use_random_bg_image().image" class="h-screen w-screen">
 			<div class="font-bold text-4xl text-center">
 				Hi
 			</div>
