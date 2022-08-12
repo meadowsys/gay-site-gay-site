@@ -11,7 +11,7 @@ const derpi_response_validator = object({
 	}).array()
 });
 
-type Image = { image: string, source: string };
+export type Image = { image: string, source: string };
 
 const fallback_image_urls: Array<Image> = [
 	{ image: "https://derpicdn.net/img/2022/5/2/2857401/large.png", source: "https://derpibooru.org/2857401" }
@@ -24,7 +24,7 @@ await fetch(`https://derpibooru.org/api/v1/json/search/images?q=${encodeURICompo
 	.then(images => derpi_response_validator.parse(images))
 	.then(({ images }) => images.map<Image>(image => ({
 		image: image.representations.large,
-		source: `https://derpibooru.org/${image.id}}`
+		source: `https://derpibooru.org/${image.id}`
 	})))
 	.then(_images => images = _images)
 	.catch(() => { /** noop, fail silently */ });

@@ -4,7 +4,9 @@
 
 		<div class="flex flex-col">
 			<div class="flex-grow" />
-			<slot />
+			<div>
+				<slot />
+			</div>
 			<div class="flex-grow" />
 		</div>
 

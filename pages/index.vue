@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<blurred-background :image="use_random_bg_image().image" class="h-screen w-screen">
+		<blurred-background :image="image" class="min-h-screen w-screen">
 			<div class="font-bold text-4xl text-center">
 				Hi
 			</div>
@@ -11,5 +11,13 @@
 				but when its done it will be filled with colourful gay horses
 			</div>
 		</blurred-background>
+		<div class="py-96 text-center">
+			stuff placeholder stuff placeholder
+		</div>
+		<wiwi-footer :image="image" />
 	</div>
 </template>
+
+<script setup lang="ts">
+	const image = use_random_bg_image();
+</script>
