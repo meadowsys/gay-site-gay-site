@@ -19,5 +19,5 @@
 </template>
 
 <script setup lang="ts">
-	const image = use_random_bg_image();
+	const image = await use_random_bg_image();
 </script>
