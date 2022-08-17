@@ -1,5 +1,7 @@
 # GAY SITE GAY SITE
 
+This me site. [`kirin` branch] have the deployed code, and [`dev` branch] have the in development code.
+
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
 ## Setup
@@ -33,3 +35,6 @@ pnpm run preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+
+[`kirin` branch]: https://github.com/autumnblazey/gay-site-gay-site/tree/kirin
+[`dev` branch]: https://github.com/autumnblazey/gay-site-gay-site/tree/dev
