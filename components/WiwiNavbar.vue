@@ -12,7 +12,7 @@
 					:to="item.path"
 					class="
 						block py-2 px-5 transition-all duration-200
-						border-purple-500 hover:border-2 rounded-xl
+						border-black border-opacity-25 hover:border-2 rounded-xl
 					"
 				>
 					{{ item.name }}
