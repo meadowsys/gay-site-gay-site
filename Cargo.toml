@@ -1,0 +1,54 @@
+[package]
+name = "gay-site-gay-site"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+actix-files = { version = "0.6.9", optional = true }
+actix-web = { version = "4.12.1", features = ["macros"], optional = true }
+console-error-panic-hook = { package = "console_error_panic_hook", version = "0.1.7" }
+leptos = { version = "0.8.14", features = ["nightly"] }
+leptos-actix = { package = "leptos_actix", version = "0.8.6", optional = true }
+leptos-meta = { package = "leptos_meta", version = "0.8.5" }
+leptos-router = { package = "leptos_router", version = "0.8.10", features = ["nightly"] }
+wasm-bindgen = "=0.2.106"
+
+[features]
+# todo remove me lol
+default = ["ssr"]
+
+hydrate = [
+	"leptos/hydrate"
+]
+ssr = [
+	"dep:actix-files",
+	"dep:actix-web",
+	"dep:leptos-actix",
+	"leptos/ssr",
+	"leptos-meta/ssr",
+	"leptos-router/ssr"
+]
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[profile.wasm-release]
+inherits = "release"
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+
+[package.metadata.leptos]
+site-root = "target/site-build"
+site-pkg-dir = "_"
+style-file = "target/unoptimised.css"
+site-addr = "127.0.0.1:3000"
+reload-port = 3001
+browserquery = "supports wasm"
+# ????????????????????????????????????????????????????????
+env = "DEV"
+bin-features = ["ssr"]
+lib-features = ["hydrate"]
+lib-profile-release = "wasm-release"
